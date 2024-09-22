@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am very passionate about being an Android Developer. I am currently honing my skills in android technologies like Kotlin and RoomDB. My goal is to leverage my skills to create innovative solutions that drive business growth and deliver great user experiences.`;
+export const HERO_CONTENT = `I am very passionate about being an Android Developer. I am currently honing my skills in android technologies like Kotlin, Jetpack Compose, RoomDB, and Firebase.`;
 
-export const ABOUT_TEXT = `Starting from a great curiosity about the world of technology, then starting to try several things like HTML, CSS, JS, until now I am studying Kotlin & Android and maybe will continue to Flutter and even Swift, besides that I am also interested in trying several web technologies such as React and Laravel.`;
+export const ABOUT_TEXT = `Starting from a great curiosity about the world of technology, then starting to try several things like HTML, CSS, JS, until now I am studying Kotlin & Android and maybe will continue to Flutter and even Swift, besides that I am also interested in trying several web technologies such as React and Laravel. My goal is to leverage my skills to create innovative solutions that drive business growth and deliver great user experiences.`;
 
 export const EXPERIENCES = [
   {
@@ -40,32 +40,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Cuan App",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Kotlin", "RoomDB"],
   },
   {
-    title: "Task Management App",
+    title: "Notes App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["Kotlin", "RoomDB", "Material Design"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "The Bone",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "Tailwind", "JS", "PHP", "mySQL"],
   },
 ];
 
