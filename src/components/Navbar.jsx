@@ -8,8 +8,8 @@ const Navbar = () => {
         <h3 className="text-white mx-6 text-xl font-bold">Alviano</h3>
     </div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaGithub/>
-        <FaInstagram/>
+        <a href="https://github.com/MDAlviano" target="_blank"><FaGithub/></a>
+        <a href="https://www.instagram.com/mdalviano/" target="_blank"><FaInstagram/></a>
     </div>
   </nav>
 }
